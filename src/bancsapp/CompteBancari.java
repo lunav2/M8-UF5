@@ -55,13 +55,4 @@ public class CompteBancari {
         }
         return resultat;
     }
-
-    public void saluda() {
-        System.out.println("hola");
-    }
-    
-    public void salud2()
-    {
-        System.err.println("Que tal");
-    }
 }
