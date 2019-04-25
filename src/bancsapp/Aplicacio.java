@@ -17,14 +17,14 @@ public class Aplicacio {
         System.out.println(".................................................");
         System.out.println("Introdueix el nombre secret del compte bancari 2: ");
         numero = cLlegir.datoInt();
-        System.out.println(".........gggg........................................");
+        System.out.println(".................................................");
         CompteBancari compte2 = new CompteBancari(nom, numero);
 
-        System.out.println("Introdueix la quantitat que vols ingressar del compte bancari 1 "
-                + "al compte bancari 2: ");
+        System.out.println("Introdueix la quantitat que vols ingressar del compte bancari 2 "
+                + "al compte bancari 1: ");
         float quantitat = cLlegir.datoFloat();
-        boolean resultat = compte.extreure(quantitat);
-        boolean resultat2 = compte2.ingressar(quantitat);
+        boolean resultat = compte2.extreure(quantitat);
+        boolean resultat2 = compte.ingressar(quantitat);
 
         if (resultat == false || resultat2 == false) {
             System.out.println("No s'ha pogut realitzar l'ingrés!");
