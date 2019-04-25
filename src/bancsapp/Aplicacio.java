@@ -17,7 +17,7 @@ public class Aplicacio {
         System.out.println(".................................................");
         System.out.println("Introdueix el nombre secret del compte bancari 2: ");
         numero = cLlegir.datoInt();
-        System.out.println(".................................................");
+        System.out.println(".........gggg........................................");
         CompteBancari compte2 = new CompteBancari(nom, numero);
 
         System.out.println("Introdueix la quantitat que vols ingressar del compte bancari 1 "
