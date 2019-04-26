@@ -20,8 +20,8 @@ public class Aplicacio {
         System.out.println(".................................................");
         CompteBancari compte2 = new CompteBancari(nom, numero);
 
-        System.out.println("Introdueix la quantitat que vols ingressar del compte bancari 2 "
-                + "al compte bancari 1: ");
+        System.out.println("Introdueix la quantitat que vols ingressar del compte bancari 1 "
+                + "al compte bancari 2: ");
         float quantitat = cLlegir.datoFloat();
         boolean resultat = compte2.extreure(quantitat);
         boolean resultat2 = compte.ingressar(quantitat);
