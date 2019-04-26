@@ -56,6 +56,6 @@ public class CompteBancari {
         return resultat;
     }
     public void saludo2(){
-        System.out.println("SALUDOS 2");
+        System.out.println("TE ESCRIBO UN SALUDO PARA LUNAV2");
     }
 }
